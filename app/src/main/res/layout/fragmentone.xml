@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="60dp">
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/XRecyclerViewOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Zi" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButtonaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="59dp"
+        android:src="@drawable/rili"
+        app:backgroundTint="#f42631"
+        app:borderWidth="0dp"
+        app:elevation="8dp"
+        app:pressedTranslationZ="16dp"
+        app:rippleColor="#33728dff" />
+
+    <RelativeLayout
+        android:id="@+id/Zi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="#0000ff">
+
+        <RelativeLayout
+            android:id="@+id/qian"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/asdasd">
+
+            <TextView
+                android:id="@+id/textqian"
+                android:layout_width="9dp"
+                android:layout_height="14dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bt_calendar_last" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/hou"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/asdasd">
+
+            <TextView
+                android:id="@+id/texthou"
+                android:layout_width="9dp"
+                android:layout_height="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bt_calendar_next" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/asdasd"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:id="@+id/shijian"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="#aa564b4b"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                />
+            <TextView
+                android:id="@+id/shijian1"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="#aa564b4b"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                />
+            <TextView
+                android:id="@+id/shijian2"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="#aa564b4b"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>
